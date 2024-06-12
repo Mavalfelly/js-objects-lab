@@ -119,11 +119,9 @@ Exercise 9
 
 Solve Exercise 9 here:
 */
-let starterPokemon = pokemon.filter(function(starter){
-  return pokemon.starter == true
-})
-
+const starterPokemon = pokemon.filter(p => p.starter).map(p => p.name);
 console.log(starterPokemon)
+
 
 
 /*
