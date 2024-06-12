@@ -140,7 +140,7 @@ this.party.push(pokemonObj)
 };
 
 // Call the method to catch a Pokémon
-game.catchPokemon(pokemon[56])
+game.catchPokemon(pokemon[59])
 
 console.log(game.party)
 
